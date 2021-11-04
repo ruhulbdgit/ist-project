@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.container{
+	width: 100%;
+	height: 200px;
+	background-color: blueviolet;
+}
+.left{
+	width: 40%;
+	height: auto;
+	background-color: cadetblue;
+	float: left;
+
+}
+.right{
+	width: 60%;
+	height: auto;
+	background-color: coral;
+	overflow: hidden;
+	
+}
+.right{
+	margin-right:20px ;
+}
