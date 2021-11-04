@@ -8,6 +8,7 @@ body{
 	height: 200px;
 	background-color: blueviolet;
 }
+
 .left{
 	width: 40%;
 	height: auto;
@@ -20,8 +21,22 @@ body{
 	height: auto;
 	background-color: coral;
 	overflow: hidden;
+	padding: 10px 0;
+	font-weight: bolder;
+	font-size: 20px;
+	
+
 	
 }
 .right{
-	margin-right:20px ;
+	margin-right:50px ;
+}
+.right a{
+	text-decoration: none;
+	border-right: 2px solid red;
+
+}
+a:hover{
+	transform: rotate(x);
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
