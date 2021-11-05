@@ -8,6 +8,9 @@ body{
 	height: auto;
 	background-color: blueviolet;
 }
+*{
+
+}
  .left{
 	 width: 30%;
 	 height: auto;
@@ -28,10 +31,12 @@ body{
 .right ul li a{
 	text-decoration: none;
 	padding: 15px;
+	color: white;
 }
 .right ul li a :hover{
 	background-color: chartreuse;
-	transition: .3s;
+	transform:translateX();
+
 }
 .btn{
 	transform: rotate();
