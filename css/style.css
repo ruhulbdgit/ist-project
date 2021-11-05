@@ -13,6 +13,10 @@ body{
 	 height: auto;
 	float: left;
 }
+.left img{
+	margin-top: 10px;
+	margin-left: 10px;
+}
 .right{
 	width: 70%;
 	height: auto;
@@ -53,4 +57,7 @@ body{
 	background-color: cyan;
 	overflow: hidden;
 
+}
+h2,p{
+	text-align: center;
 }
