@@ -38,10 +38,7 @@ body{
 	transform:translateX();
 
 }
-.btn{
-	transform: rotate();
-	border-radius: 50%;
-}
+
 .content-left{
 	width: 30%;
 	height: 50%;
