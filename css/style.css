@@ -4,7 +4,7 @@ body{
 	box-sizing: border-box;
 }
 .container{
-	width: 90%;
+	width: 100%;
 	height: auto;
 	background-color: blueviolet;
 }
@@ -42,13 +42,13 @@ body{
 	transform: rotate();
 	border-radius: 50%;
 }
-.m-left{
+.content-left{
 	width: 30%;
 	height: 50%;
 	background-color: chartreuse;
 	float: left;
 }
-.m-middle{
+.content-middle{
 	width: 30%;
 	height: 50%;
 	background-color: crimson;
@@ -56,8 +56,8 @@ body{
 	float: left;
 
 }
-.m-right{
-	width: 30%;
+.content-right{
+	width: 40%;
 	height:50%;
 	background-color: cyan;
 	overflow: hidden;
